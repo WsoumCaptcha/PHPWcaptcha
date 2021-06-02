@@ -1,5 +1,5 @@
 {
-    "name": "php-wcaptcha/php-wcaptcha",
+    "name": "wsoumcaptcha/phpwcaptcha",
     "description": "PHP Wsoum Captcha",
     "require": {
         "php": ">=5.0"
