@@ -2,6 +2,6 @@
     "name": "php-wcaptcha/php-wcaptcha",
     "description": "PHP Wsoum Captcha",
     "require": {
-        "php": ">=5.0",
+        "php": ">=5.0"
     }
 }
