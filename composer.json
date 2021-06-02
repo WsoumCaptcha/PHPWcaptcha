@@ -1,0 +1,8 @@
+{
+    "name": "PHPWcaptcha/PHPWcaptcha",
+    "description": "PHP Wsoum Captcha",
+    "require": {
+        "php": ">=5.0",
+        "another-vendor/package": "1.0"
+    }
+}
