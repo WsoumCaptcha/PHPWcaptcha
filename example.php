@@ -4,10 +4,10 @@
 include('wcaptcha.lib.php');
 
 // Set the api key
-define('WCAPTCHA_API','API_KEY',true); // Your API key, you can get it from: https://captcha.wsoum.ml/get_key
+define('wcaptcha_api','API_KEY',true); // Your API key, you can get it from: https://captcha.wsoum.ml/get_key
 
 // Setup the Wsoum CAPTCHA object
-$wcaptcha = new wcaptcha(WCAPTCHA_API, 'ar');
+$wcaptcha = new wcaptcha(wcaptcha_api, 'ar');
 
 
 if(isset($_POST["submit"])){
