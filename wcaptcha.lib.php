@@ -22,7 +22,7 @@ class wcaptcha {
 	 * @param string $background Background color (HEX)
 	 * @param string $api_key Border color (HEX)
 	 */	
-	function wcaptcha( $api_key, $language = 'en' ){
+	function __construct( $api_key, $language = 'en' ){
 		
 		if ( empty( $api_key ) ){
 		
